@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Base Blues */
+  --blue-lightest: #e0f7fa; /* Lightest blue */
+  --blue-lighter: #80deea;  /* Lighter blue */
+  --blue-light: #4fc3f7;    /* Light blue */
+  --blue: #0288d1;          /* Standard blue */
+  --blue-dark: #0277bd;     /* Dark blue */
+  --blue-darker: #01579b;   /* Even darker blue */
+  --blue-darkest: #003c8f;  /* Darkest blue */
+  
+  /* Accent & Highlight Blues */
+  --blue-accent: #29b6f6;   /* Accent blue */
+  --blue-hover: #039be5;    /* Hover effect blue */
+  
+  /* Background and Text Colors */
+  --blue-background: #f0f7fc; /* Soft blue background */
+  --blue-text: #01579b;      /* Dark blue for text */
+  --blue-muted-text: #4f83cc; /* Muted blue text */
+  
+  /* Black and White */
+  --black: #000000;          /* Black */
+  --black-light: #333333;    /* Light black for text or borders */
+  --white: #ffffff;          /* White */
+  --white-light: #f0f0f0;    /* Light gray for backgrounds or sections */
+  --white-dark: #e0e0e0;     /* Darker white for borders or subtle elements */
+}
+
+/* .navs{
+  background-color: #0288d1;
+  display: flex;
+  justify-content: space-around;
+} */
+.foot{
+  margin-top: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blue-darkest);
+  height: 50px;
+}
+.app{
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+

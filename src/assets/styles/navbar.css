@@ -1,0 +1,5 @@
+.navs {
+    background-color: var(--blue-accent);
+    display: flex;
+    justify-content: space-between;
+}
